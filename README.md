@@ -11,3 +11,4 @@ Key takeaways from reading / coding along with Fowler's book on Refactoring.
 
 # Decomposing the 'statement' Function
 - try to id points that separate different parts of the overall behaviour. In this stage the switch statement sticking out will be removed using 'Extract Function'.
+- "Any fool can write code that a computer can understand. Good programmers write code that numans can understand."
