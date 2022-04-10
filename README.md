@@ -37,4 +37,5 @@ complex routines.
 - technique: Slide Statement - to move a declaration of a variable next to the use of it
 - technique: Replace Temp with Query
 - technique: Extract Function
-
+- you not always need to make such small commits but when refactoring gets hard you first need 
+to take smaller steps.
