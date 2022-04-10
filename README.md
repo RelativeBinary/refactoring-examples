@@ -17,3 +17,7 @@ Key takeaways from reading / coding along with Fowler's book on Refactoring.
 - play's data is already provided in performance and so we can remove play from amountFor's parameter list using the technique 'Replace Temp with Query'
     - extract play variable from amountFor
     - replace with a query getting the data instead
+
+# Extracting Volume Credits 
+- like the play variable were going to try to extract the volumeCredits variable. 
+    - to further reduce locally scoped variables
