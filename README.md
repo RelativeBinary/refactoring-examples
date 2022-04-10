@@ -28,3 +28,6 @@ Theyre only useful within their own routine, and therefore they encourage long,
 complex routines. 
 - format is the next one to remove.
 - this will be done by replacing a the temp var with a function (perferably)
+
+# Renaming the format function
+- Breaking a function into smaller ones only adds value if the names are good.
