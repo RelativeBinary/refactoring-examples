@@ -31,3 +31,9 @@ complex routines.
 
 # Renaming the format function
 - Breaking a function into smaller ones only adds value if the names are good.
+
+# Removing total volume credits 
+- technique: Split Loop - to separate the accumulation of volumeCredits 
+- technique: Slide Statement - to move a declaration of a variable next to the use of it
+
+
