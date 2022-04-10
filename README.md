@@ -35,5 +35,6 @@ complex routines.
 # Removing total volume credits 
 - technique: Split Loop - to separate the accumulation of volumeCredits 
 - technique: Slide Statement - to move a declaration of a variable next to the use of it
-
+- technique: Replace Temp with Query
+- technique: Extract Function
 
