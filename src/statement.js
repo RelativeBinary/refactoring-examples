@@ -55,6 +55,6 @@ function volumeCreditsFor(aPerformance) {
 function format(aNumber) {
     return new Intl.NumberFormat("en-US", 
     {style: "currency", currency: "USD"})
-    .format;
+    .format(aNumber);
 }
 module.exports = statement;
