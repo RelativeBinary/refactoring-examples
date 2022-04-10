@@ -21,3 +21,10 @@ Key takeaways from reading / coding along with Fowler's book on Refactoring.
 # Extracting Volume Credits 
 - like the play variable were going to try to extract the volumeCredits variable. 
     - to further reduce locally scoped variables
+
+# Removing the 'format' variable
+- as suggested before temporary variables can be problematic. 
+Theyre only useful within their own routine, and therefore they encourage long, 
+complex routines. 
+- format is the next one to remove.
+- this will be done by replacing a the temp var with a function (perferably)
