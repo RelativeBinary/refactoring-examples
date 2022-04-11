@@ -64,3 +64,6 @@ Next phase:
 # Enrich performances
 - technique: move function
 - we want each play in performances to have the play.Name not just playID so we will need to 'enrich' performances
+
+# Do the same to amountFor
+- technique: move function
