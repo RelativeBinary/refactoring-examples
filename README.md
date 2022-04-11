@@ -67,3 +67,6 @@ Next phase:
 
 # Do the same to amountFor
 - technique: move function
+
+# Do the same to volumeCredits
+- technique: move function
