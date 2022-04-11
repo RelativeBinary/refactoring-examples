@@ -46,3 +46,13 @@ to take smaller steps.
 - technique: Slide statement
 - technique: Replace temp with query
 - technique: Extract function
+
+# Splitting phase of calcualtions and formatting
+First phase:
+- breaking down complicated chunks into small pieces 
+- naming things well 
+
+Next phase:
+- splitting phase of calcualtions and formatting (presenataion)
+    - starting with the rendering of the output statement
+    - technique split phase with extract function 

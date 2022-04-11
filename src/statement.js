@@ -1,4 +1,8 @@
 function statement (invoice) {
+    return renderPlainText(invoice)
+}
+
+function renderPlainText(invoice) {
     let result = `Statement for ${invoice.customer} \n`;
     for (let perf of invoice.performances) {
         //print line for this order
