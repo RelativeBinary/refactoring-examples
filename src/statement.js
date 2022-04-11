@@ -45,17 +45,17 @@ function playFor(aPerformance) {
     return plays[aPerformance.playID]
 }
 
-function totalAmount(invoice) {
+function totalAmount(data) {
     let result = 0;
-    for (let perf of invoice.performances) {
+    for (let perf of data.performances) {
         result += amountFor(perf);
     }
     return result
 }
 
-function totalVolumeCredits(invoice) {
+function totalVolumeCredits(data) {
     let result = 0;
-    for (let perf of invoice.performances) {
+    for (let perf of data.performances) {
         result += volumeCreditsFor(perf)
     }
     return result;
