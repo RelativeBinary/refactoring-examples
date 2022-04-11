@@ -57,3 +57,7 @@ Next phase:
     - starting with the rendering of the output statement
     - technique split phase with extract function 
     - create intermediate data structure
+
+# Populating the intermediate data structure (depricating invoice)
+- at this stage of splitting the calculations and the formatting we want to start populating our intermediate data structure with the data that our renderToPlainText function handles, because we just want the render function to only do formatting.
+
