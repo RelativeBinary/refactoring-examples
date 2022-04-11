@@ -44,3 +44,5 @@ to take smaller steps.
 # Do the same on totalAmount
 - technique: Split Loop
 - technique: Slide statement
+- technique: Replace temp with query
+- technique: Extract function
