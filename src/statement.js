@@ -1,4 +1,4 @@
-function statement (invoice, plays) {
+function statement (invoice) {
     let result = `Statement for ${invoice.customer} \n`;
     for (let perf of invoice.performances) {
         //print line for this order
@@ -9,7 +9,7 @@ function statement (invoice, plays) {
     return result;
 }
 
-function amountFor(aPerformance, play) {
+function amountFor(aPerformance) {
     let result = 0;
     switch (playFor(aPerformance).type) {
         case "tragedy":
@@ -46,11 +46,11 @@ function totalAmount(invoice) {
 }
 
 function totalVolumeCredits(invoice) {
-    let volumeCredits = 0;
+    let result = 0;
     for (let perf of invoice.performances) {
-        volumeCredits += volumeCreditsFor(perf)
+        result += volumeCreditsFor(perf)
     }
-    return volumeCredits;
+    return result;
 }
 
 function volumeCreditsFor(aPerformance) {
