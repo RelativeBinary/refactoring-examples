@@ -1,9 +1,15 @@
 function statement (invoice) {
     const statementData = {}
     statementData.customer = invoice.customer
-    statementData.performances = invoice.performances 
+    statementData.performances = invoice.performances.map(enrichPerformance)
     statementData.audience = invoice.audience
     return renderPlainText(statementData, invoice)
+}
+
+function enrichPerformance(aPerformance) {
+    const result = Object.assign({}, aPerformance); //perform a shallow copy
+    result.play = playFor
+    return result 
 }
 
 function renderPlainText(data) {
