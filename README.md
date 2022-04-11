@@ -62,4 +62,5 @@ Next phase:
 - at this stage of splitting the calculations and the formatting we want to start populating our intermediate data structure with the data that our renderToPlainText function handles, because we just want the render function to only do formatting.
 
 # Enrich performances
+- technique: move function
 - we want each play in performances to have the play.Name not just playID so we will need to 'enrich' performances
