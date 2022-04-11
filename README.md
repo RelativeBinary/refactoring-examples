@@ -39,3 +39,8 @@ complex routines.
 - technique: Extract Function
 - you not always need to make such small commits but when refactoring gets hard you first need 
 to take smaller steps.
+- you may be concerned about the amount of 'extra steps' this code is doing but its much easier to tune the performance of wall-factored code later.
+
+# Do the same on totalAmount
+- technique: Split Loop
+- technique: Slide statement
