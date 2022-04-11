@@ -56,3 +56,4 @@ Next phase:
 - splitting phase of calcualtions and formatting (presenataion)
     - starting with the rendering of the output statement
     - technique split phase with extract function 
+    - create intermediate data structure
