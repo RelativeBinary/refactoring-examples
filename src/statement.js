@@ -2,7 +2,6 @@ function statement (invoice) {
     const statementData = {}
     statementData.customer = invoice.customer
     statementData.performances = invoice.performances.map(enrichPerformance)
-    statementData.audience = invoice.audience
     return renderPlainText(statementData, invoice)
 }
 
