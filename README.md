@@ -73,3 +73,7 @@ Next phase:
 
 # Do the same to the total vairables 
 - technique: move function
+- technique: inline method
+
+# Replace loop with pipeline
+- technique replace loop with pipeline 
