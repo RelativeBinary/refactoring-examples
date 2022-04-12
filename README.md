@@ -76,4 +76,7 @@ Next phase:
 - technique: inline method
 
 # Replace loop with pipeline
-- technique replace loop with pipeline 
+- technique: replace loop with pipeline 
+
+# Extract all first phase code into its own function
+- technique: Extract function 
