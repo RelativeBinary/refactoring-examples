@@ -79,4 +79,7 @@ Next phase:
 - technique: replace loop with pipeline 
 
 # Extract all first phase code into its own function
-- technique: Extract function 
+- technique: Extract function
+
+# Extract calculation code to seperate files
+- keep in mind only the calculation related code is split.
