@@ -83,3 +83,10 @@ Next phase:
 
 # Extract calculation code to seperate files
 - keep in mind only the calculation related code is split.
+
+# Comments on completed refactoring 
+- brevity is the sould of wit, but clarity is the sould of evolvable software. Clarity over brevity.
+- Boy scouts rule
+- There is still a lot more refactoring that can be done to ensure the code is flexible for more functionality such as:
+    - replacing conditionals with polymorphism
+    
