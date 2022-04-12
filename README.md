@@ -70,3 +70,6 @@ Next phase:
 
 # Do the same to volumeCredits
 - technique: move function
+
+# Do the same to the total vairables 
+- technique: move function
